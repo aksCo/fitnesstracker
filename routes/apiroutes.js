@@ -11,9 +11,9 @@ router.get("/api/workouts", (req, res) => {
 });
 router.put("/api/workouts/:id", (req, res) => {
     db.Workout.updateOne({
-        mid: req.params.id,
+        _id: req.params.id,
     }, {
-        npush: {
+        $push: {
             exercises: req.body,
         },
     }).then((dbWorkout) => {
