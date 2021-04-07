@@ -31,7 +31,7 @@ router.post("/api/workouts", ({ body }, res) => {
 });
 
 router.get("/api/workouts/range", (req, res) => {
-    db.Workout.find({}).Workoutthen((dbWorkout) => {
+    db.Workout.find({}).then((dbWorkout) => {
         res.json(dbWorkout);
     }).catch((err) => {
         res.status(400);
