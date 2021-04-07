@@ -27,7 +27,7 @@ The user should be able to:
   * View the total duration of each workout from the past seven workouts on the `stats` page.
 
 ## Screenshots
-[!img](/images/img.png)
+![img](./images/img.png)
 
 ## Link
 https://shielded-caverns-44461.herokuapp.com/?id=606d3b0921821100153b933a
